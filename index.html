@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/game.css">
+    <title>Quem Sou Eu ?</title>
+</head>
+<body class="home">
+    <h1 class="titulo-home">Quem Sou Eu ?</h1>
+    <div class="botao-home">
+        <button id="playButton">PLAY</button>
+    </div>
+    <div class="imagens-home">
+        <img src="./img/MMS.png" alt="mms">
+        <img src="./img/iguatu.png" alt="iguatu">
+        <img src="./img/agrinho.png" alt="agrinho">
+        <img src="./img/senar.png" alt="senar">
+    </div>
+    <script>
+        document.getElementById('playButton').addEventListener('click', function() {
+            window.location.href = './pages/game.html'; 
+        });
+    </script>
+</body>
+</html>
