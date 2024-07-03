@@ -9,7 +9,13 @@ const listPersonagens = [
     { nome: "ENERGIA EÓLICA", imagem: "../img/8.png" },
     { nome: "ARARA-AZUL", imagem: "../img/9.png" },
     { nome: "PREÁ", imagem: "../img/10.png" },
-    { nome: "VITÓRIA RÉGIA", imagem: "../img/11.png" }
+    { nome: "VITÓRIA RÉGIA", imagem: "../img/11.png" },
+    { nome: "LIXEIRAS", imagem: "../img/12.png" },
+    { nome: "PLANTA", imagem: "../img/13.png" },
+    { nome: "USINA HIDRELÉTRICA", imagem: "../img/14.png" },
+    { nome: "POLUIÇÃO", imagem: "../img/15.png" },
+    { nome: "DIA MUNDIAL DO MEIO AMBIENTE", imagem: "../img/16.png" },
+    { nome: "CACTO", imagem: "../img/17.png" },
 ];
 
 let nomePersonagem;
